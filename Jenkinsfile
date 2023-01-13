@@ -7,21 +7,21 @@ Pipeline {
     stage("build") {
       
       steps {
-        echo "build";
+        echo 'build'
       }
   }
     
     stage("test") {
       
       steps {
-        echo "test";
+        echo 'test'
       }
   }
   
   stage("deploy") {
       
       steps {
-        echo "deploy";
+        echo 'deploy'
       }
   }
  
